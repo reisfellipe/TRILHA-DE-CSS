@@ -1,11 +1,14 @@
 @import url('./global.css');
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: black;
+}
+    
+    /*background-color: var(--cor-de-fundo);
     background-image: linear-gradient(to bottom, #000000 10%, #31a9dd56,#000000);
     background-repeat: no-repeat;
-    background-position: top center;
-}
+    background-position: top center;*/
+
 
 .slogan {
     margin: 50px 0;
