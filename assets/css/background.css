@@ -1,0 +1,11 @@
+
+
+.background img {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background #h-slogan {
+    color: white;
+    font-size: 40px;
+}

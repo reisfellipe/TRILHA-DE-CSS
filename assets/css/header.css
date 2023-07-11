@@ -1,0 +1,72 @@
+@import url('./global.css');
+
+body {
+    background-color: var(--cor-de-fundo);
+    background-image: linear-gradient(to bottom, #000000 10%, #31a9dd56,#000000);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.slogan {
+    margin: 50px 0;
+    height: 460px;
+    background-image: url('../images/background-code.png');
+    background-position: center bottom;
+}
+
+.slogan .content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Raleway', sans-serif;
+    width: 510px;
+}
+
+.slogan .content .image {
+    margin-top: 25px;
+}
+
+.slogan .content h1 {
+    font-style: normal;
+    color: #31A8DD;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.slogan .content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin: 20px 0;
+    line-height: 1.4rem;
+}
+
+.slogan .content button {
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    width: 300px;
+    max-width: 300px;
+    max-height: 80px;
+    margin-left: 100px;
+    cursor: pointer;
+    background-image: linear-gradient(#3BA1CD, #1572B7);
+    transition: all 1s;
+    border-radius: 10px;
+}
+.slogan .content button:hover {
+    background-color: #31A8DD;
+    color: #0f558a;
+    transition-duration: .3s;
+    background-image: none;
+    font-size: 15px;
+    text-shadow: 1px 1px 9px var(--cor-cinza);
+}
+
+
+
+/* background-image: linear-gradient(#000000, #31A8DD); <- FOOTER FUNDO*/

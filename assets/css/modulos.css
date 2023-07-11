@@ -1,0 +1,55 @@
+.modulos {
+    background-color: var(--cor-de-fundo);
+    color: white;
+    padding: 80px 50px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modulos .m-content {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.modulos .m-content h1{
+    color: var(--cor-azul);
+    font-size: 36px;
+}
+
+.modulos .m-content p {
+    margin:30px 300px ;
+    line-height: 25px;
+    font-size: 18.7px;
+    letter-spacing: .8px;
+}
+
+.modulos .m-content span {
+    color: var(--cor-azul);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+.modulos .m-content .m1 {
+    border: 2px solid var(--cor-azul);
+    padding: 13px;
+    border-radius: 30px;
+}
+
+.modulos .m-content .m2 {
+    border: 2px solid var(--cor-azul);
+    padding: 13px;
+    border-radius: 30px;
+}
+
+.modulos .m-content .m3 {
+    border: 2px solid var(--cor-azul);
+    padding: 13px;
+    border-radius: 30px;
+}
+
+.modulos .m-content #m-matter:hover {
+    background-color: #31a9dd56;
+    transition: .5s;
+    cursor: pointer;
+}
