@@ -56,9 +56,6 @@ body {
     transition: all 1s;
     border-radius: 10px;
 }
-.slogan .content button a {
-    text-decoration: none;
-}
 
 .slogan .content button:hover {
     background-color: #31A8DD;
@@ -69,8 +66,13 @@ body {
     text-shadow: 1px 1px 9px var(--cor-cinza);
 }
 
-hr {
-    color: white;
+.slogan .content button a{
+    margin: 0;
+    text-decoration: none;
+    color: black;
 }
 
+.slogan .content button a:hover {
+    color: #0f558a;
+}
 /* background-image: linear-gradient(#000000, #31A8DD); <- FOOTER FUNDO*/
