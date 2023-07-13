@@ -10,8 +10,8 @@ footer .dio-content {
     justify-content: center;
 }
 
-footer .dio-content .change {
-    
+footer .dio-content ul li {
+    display: inline-block;
 }
 
 footer p {
