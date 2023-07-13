@@ -5,13 +5,12 @@ footer {
 
 footer .dio-content {
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    text-align: center;
 }
 
 footer .dio-content ul li {
     display: inline-block;
+    vertical-align: bottom;
 }
 
 footer p {
