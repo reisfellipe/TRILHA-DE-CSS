@@ -76,3 +76,25 @@ body {
     color: #0f558a;
 }
 /* background-image: linear-gradient(#000000, #31A8DD); <- FOOTER FUNDO*/
+
+@media (max-width: 480px) {
+    .slogan {
+        width: 90%;
+        margin: auto 6px;
+    }
+
+    .slogan .content {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slogan .content .image {
+        margin: 0 auto;
+    }
+
+    .slogan .content button {
+        position: relative;
+        right: 24%;
+    }
+}
