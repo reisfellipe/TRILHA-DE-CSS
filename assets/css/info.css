@@ -27,8 +27,8 @@
 
 @media (max-width: 480px){
     .info {
-        margin: 40px auto;
-        width: 90%;
+        margin: 40px 20px;
+        width: 100%;
     }
 
     .info h1 {

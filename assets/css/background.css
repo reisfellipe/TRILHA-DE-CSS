@@ -19,17 +19,13 @@
 @media (max-width:480px) {
     .background {
         height: 100%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: ;
-        width: 90vw;
+        width: 100%;
     }
 
     .background h1 {
         color: white;
         font-size: 30px;
-        width: 90%;
+        width: 80%;
         padding: 100px 25px;
         text-shadow: 2px 2px 2px #33A8DB;
     }
