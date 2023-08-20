@@ -37,3 +37,17 @@ footer .direitos {
 footer .direitos a {
     font-weight: 700;
 }
+
+/*RESPONSIVO*/
+
+@media (max-width: 480px){
+    footer {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    footer .dio-content {
+        width: 100%;
+    }
+}

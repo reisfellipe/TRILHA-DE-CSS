@@ -43,4 +43,9 @@
         line-height: 1.6rem;
         letter-spacing: .3px;
     }
+
+    .info img {
+        width: 90%;
+        margin-bottom: 15px;
+    }
 }
