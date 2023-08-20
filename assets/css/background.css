@@ -14,3 +14,25 @@
     text-shadow: 2px 2px 2px #33A8DB;
 }
 
+/*Responsivo*/
+
+@media (max-width:480px) {
+    .background {
+        height: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-image: url('../images/background-parallax.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        width: 90%;
+    }
+
+    .background h1 {
+        color: white;
+        font-size: 30px;
+        width: 90%;
+        padding: 100px 25px;
+        text-shadow: 2px 2px 2px #33A8DB;
+    }
+}
