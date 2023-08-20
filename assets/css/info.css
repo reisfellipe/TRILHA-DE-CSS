@@ -22,3 +22,25 @@
     font-weight: 600;
     letter-spacing: .6px;
 }
+
+/*RESPONSIVO*/
+
+@media (max-width: 480px){
+    .info {
+        margin: 40px auto;
+        width: 90%;
+    }
+
+    .info h1 {
+        font-size: 30px;
+        padding-right: 40px;
+    }
+
+    .info p {
+        text-align: justify;
+        padding: 10px;
+        width: 86%;
+        line-height: 1.6rem;
+        letter-spacing: .3px;
+    }
+}

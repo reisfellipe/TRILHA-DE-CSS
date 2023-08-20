@@ -19,13 +19,11 @@
 @media (max-width:480px) {
     .background {
         height: 100%;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-image: url('../images/background-parallax.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        background-position: center center;
-        width: 90%;
+        background-position: ;
+        width: 90vw;
     }
 
     .background h1 {
