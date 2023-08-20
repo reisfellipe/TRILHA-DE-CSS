@@ -53,3 +53,44 @@
     transition: .5s;
     cursor: pointer;
 }
+
+/*Responsivo*/
+@media (max-width: 480px) {
+    .modulos {
+        width: 90%;
+        margin: 0;
+        padding: 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .modulos .m-content {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .modulos .m-content h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin: auto 0;
+    }
+
+    .modulos .m-content p {
+        width: 90%;
+        margin: 30px 5px;
+        padding-left: 9px;
+        text-align: justify;
+        line-height: 1.9rem;
+    }
+
+    .modulos .m-content #m-matter {
+        line-height: 1.6rem;
+        border-radius: 40px;
+        padding: 15px;
+        font-size: 18px;
+        margin-right: 8px;
+        letter-spacing: 1px;
+    }
+
+}
